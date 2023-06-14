@@ -8,8 +8,8 @@ import { useRouter } from "next/router";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-full pt-[1%] items-center sticky bottom-0">
-      <div className="flex flex-row w-full justify-around items-center pb-[1%]">
+    <footer className="flex flex-col w-full pt-[2%] items-center bottom-0">
+      <div className="flex flex-row w-full justify-around items-center pb-[2%]">
         <div>
           <h1>Have an idea? Pass it my way!</h1>
           <Link
@@ -107,13 +107,16 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h1>SPOTIFY CONTENT CONTAINER</h1>
+          <h1>SPOTIFY CONTENT CREATOR</h1>
         </div>
       </div>
       <div className="relative col-start-1 col-end-13 pb-2 text-clip overflow-hidden">
-        <p className="text-clip text-zinc-600 hover:text-amber-700 whitespace-nowrap">
-          Created with Next.js by Vercel
-        </p>
+        <h1 className="text-clip text-zinc-600 hover:text-amber-700 whitespace-nowrap">
+          Created with Next.js by Vercel // Created with Next.js by Vercel //
+          Created with Next.js by Vercel // Created with Next.js by Vercel //
+          Created with Next.js by Vercel // Created with Next.js by Vercel //
+          Created with Next.js by Vercel //
+        </h1>
       </div>
     </footer>
   );

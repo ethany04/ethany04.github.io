@@ -8,13 +8,13 @@ const Header = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
-    <header className="flex flex-row pt-10 pl-8 justify-between pr-24 items-center">
+    <header className="flex flex-row pl-8 justify-between pr-24 items-center w-full h-[12%] backdrop-filter backdrop-blur-lg fixed z-10 transition ease-in-out duration-500 border-b border-white">
       <div className="">
         <Link href="/">
           <Image
-            src="/assets/icons/yu.svg"
+            src="/assets/icons/tonghao.svg"
             alt="Yu"
-            width={50}
+            width={100}
             height={50}
             className="bg-zinc-800 rounded-md pt-1 pr-1 pl-1 pb-1"
           />
