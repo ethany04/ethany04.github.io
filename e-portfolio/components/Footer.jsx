@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-full pt-[2%] items-center bottom-0">
+    <footer className="flex flex-col w-full pt-[2%] items-center bottom-0 overflow-hidden">
       <div className="flex flex-row w-full justify-around items-center pb-[2%]">
         <div>
           <h1>Have an idea? Pass it my way!</h1>

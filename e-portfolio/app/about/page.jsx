@@ -33,7 +33,7 @@ const About = () => {
             src="/assets/images/selfie.png"
             alt="selfie"
             height={1}
-            width={300}
+            width={400}
           />
           <span className="w-[50%]">
             <div className="flex flex-wrap">
