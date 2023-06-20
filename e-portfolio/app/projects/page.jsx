@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 const projectImages = [
   ["Portfolio (This website!)", "../assets/images/portfolio.png", "#f0f0f5"],
   ["Bzzaart", "../assets/images/bzzaart.png", "#ff91af"],
-  ["Hang or Sustain"],
+  ["Hang or Sustain", "../assets/images/HangOrSustain.png", "#77987d"],
 ];
 
 const Projects = () => {
@@ -32,9 +32,16 @@ const Projects = () => {
         <div>
           <div className="w-3/4 pl-[7%]">
             <h1 className="text-5xl leading-tight">
-              Ethan Yu is a software engineer based out of Austin and San
-              Antonio. He enjoys working on human-centric projects with new
-              technology. (THIS NEEDS TO BE CHANGED)
+              Hey, I'm Ethan Yu, an aspiring software engineer based in
+              Austin/San Antonio. I enjoy working on{" "}
+              <span className="underline underline-offset-4">
+                human-centric
+              </span>{" "}
+              projects with{" "}
+              <span className="underline underline-offset-4">
+                new technology
+              </span>
+              .
             </h1>
           </div>
         </div>

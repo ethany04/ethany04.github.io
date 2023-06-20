@@ -6,7 +6,7 @@ const ProjectCard = ({ image, title, themeColor }) => {
           <div style={{ borderWidth: "7px", borderColor: themeColor }}>
             <img src={image} />
             <div className="name">
-              <h1 className="text-7xl" style={{ color: themeColor }}>
+              <h1 className="text-7xl h-full" style={{ color: themeColor }}>
                 {title}
               </h1>
             </div>
