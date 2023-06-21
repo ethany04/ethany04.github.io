@@ -1,7 +1,6 @@
 import Image from "next/image";
 import RootLayout from "./layout";
 import ProjectCard from "@/components/ProjectCard";
-import ProjectCardAnimation from "@components/ProjectCardAnimation";
 
 const projectImages = [
   ["Portfolio (This website!)", "../assets/images/portfolio.png", "#f0f0f5"],
