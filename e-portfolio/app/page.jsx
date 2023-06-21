@@ -1,6 +1,7 @@
 import Image from "next/image";
 import RootLayout from "./layout";
 import ProjectCard from "@/components/ProjectCard";
+import ProjectCardAnimation from "@components/ProjectCardAnimation";
 
 const projectImages = [
   ["Portfolio (This website!)", "../assets/images/portfolio.png", "#f0f0f5"],
@@ -31,7 +32,15 @@ const Projects = () => {
         </div>
         <div>
           <div className="w-3/4 pl-[7%]">
-            <h1 className="text-5xl leading-tight">
+            <h1
+              className="text-5xl leading-tight"
+              style={{
+                transform:
+                  "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                opacity: 1,
+                transformStyle: "preserve-3d",
+              }}
+            >
               Hey, I'm Ethan Yu, an aspiring software engineer based in
               Austin/San Antonio. I enjoy working on{" "}
               <span className="italic">human-centric</span> projects with{" "}

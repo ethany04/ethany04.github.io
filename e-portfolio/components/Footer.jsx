@@ -9,16 +9,13 @@ import { useRouter } from "next/router";
 const Footer = () => {
   return (
     <footer className="flex flex-col w-full pt-[2%] items-center bottom-0 overflow-hidden">
-      <div className="flex flex-row w-full justify-around items-center pb-[2%]">
-        <div>
-          <h1>Have an idea? Pass it my way!</h1>
-          <Link
-            href="mailto:ethanyu2009@gmail.com"
-            className="underline-hover-effect"
-          >
-            ethanyu2009@gmail.com
-          </Link>
+      <div className="flex flex-row w-full justify-around items-center pb-[2%] ">
+        <div className="w-64">
+          <span>
+            <button disabled={true} />
+          </span>
         </div>
+
         <div>
           <ul>
             <li>
@@ -106,8 +103,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h1>SPOTIFY CONTENT CREATOR</h1>
+        <div className="w-64">
+          <h1>Have an idea? Pass it my way!</h1>
+          <Link
+            href="mailto:ethanyu2009@gmail.com"
+            className="underline-hover-effect"
+          >
+            ethanyu2009@gmail.com
+          </Link>
         </div>
       </div>
       <div className="relative col-start-1 col-end-13 pb-2 text-clip overflow-hidden">

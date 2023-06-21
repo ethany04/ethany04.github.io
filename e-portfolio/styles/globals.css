@@ -97,6 +97,34 @@ ul li:before {
   transition: 0.3s ease-in-out;
 }
 
+button {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #581c87;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+button:before {
+  color: #581c87;
+  content: "v1.0.0";
+}
+
+button:hover:before {
+  color: #581c87;
+  content: "Last edited 6/21/2023";
+}
+
 .underline-hover-effect {
   display: inline-block;
   position: relative;
