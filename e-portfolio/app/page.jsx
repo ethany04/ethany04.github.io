@@ -1,11 +1,17 @@
-import Link from "next/link";
-import RootLayout from "./layout.jsx";
 import Image from "next/image";
+import RootLayout from "./layout";
+import ProjectCard from "@/components/ProjectCard";
 
-const Home = () => {
+const projectImages = [
+  ["Portfolio (This website!)", "../assets/images/portfolio.png", "#f0f0f5"],
+  ["Bzzaart", "../assets/images/bzzaart.png", "#ff91af"],
+  ["Hang or Sustain", "../assets/images/HangOrSustain.png", "#77987d"],
+];
+
+const Projects = () => {
   return (
-    <RootLayout showFooter={false} showHeader={false}>
-      <section className="main_screen w-full h-screen flex-center flex-col">
+    <RootLayout showFooter={true} showHeader={true}>
+      <section className="flex flex-col pt-[14%] pb-[5%] items-center ">
         <div
           style={{
             zIndex: -1,
@@ -17,23 +23,34 @@ const Home = () => {
           }}
         >
           <Image
-            src="/assets/images/home.svg"
+            src="/assets/images/boston.svg"
             alt="basketball court"
             fill={true}
             style={{ objectFit: "cover" }}
           />
         </div>
         <div>
-          <h1 className="text-2xl">hello hello</h1>
+          <div className="w-3/4 pl-[7%]">
+            <h1 className="text-5xl leading-tight">
+              Hey, I'm Ethan Yu, an aspiring software engineer based in
+              Austin/San Antonio. I enjoy working on{" "}
+              <span className="italic">human-centric</span> projects with{" "}
+              <span className="italic">new technology</span>.
+            </h1>
+          </div>
         </div>
         <div>
-          <h2 className="text-8xl">
-            <Link href="/about">Ethan Yu</Link>
-          </h2>
+          {projectImages.map((project) => (
+            <ProjectCard
+              title={project[0]}
+              image={project[1]}
+              themeColor={project[2]}
+            />
+          ))}
         </div>
       </section>
     </RootLayout>
   );
 };
 
-export default Home;
+export default Projects;

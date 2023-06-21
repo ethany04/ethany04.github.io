@@ -21,7 +21,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex flex-row justify-between">
-        <Link href="/projects">Projects</Link>
+        <Link href="/">Projects</Link>
         <span className="w-24" />
         <Link href="/about">About</Link>
       </div>

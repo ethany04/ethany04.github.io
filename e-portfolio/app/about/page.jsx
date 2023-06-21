@@ -91,6 +91,17 @@ const About = () => {
             👐🏼 I enjoy doing things with my hands (love origami and recently
             made matching anklets for me and my girlfriend)
           </h1>
+          <h1 className="pb-[2%]">
+            📸 I enjoy{" "}
+            <Link
+              target="_blank"
+              href="https://unsplash.com/@eethann"
+              style={{ textDecoration: "underline" }}
+            >
+              taking photos
+            </Link>
+            , espcially when traveling.
+          </h1>
           <h1 className="pb-[1%]">
             🎶 Here are some of my most favorite songs, which I think reveals a
             lot about a person
