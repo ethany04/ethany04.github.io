@@ -24,7 +24,7 @@ const Projects = () => {
         >
           <Image
             src="/assets/images/boston.svg"
-            alt="basketball court"
+            alt="Boston city grid"
             fill={true}
             style={{ objectFit: "cover" }}
           />

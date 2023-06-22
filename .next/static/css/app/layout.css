@@ -509,6 +509,9 @@ video {
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
 .h-\[12\%\] {
   height: 12%;
 }
@@ -804,7 +807,7 @@ button {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #581c87;
+  border: 1px solid #5b21b6;
   border-radius: 25px;
   outline: none;
   overflow: hidden;
@@ -813,13 +816,13 @@ button {
 }
 
 button:before {
-  color: #581c87;
+  color: #5b21b6;
   content: "v1.0.0";
 }
 
 button:hover:before {
-  color: #581c87;
-  content: "Last edited 6/21/2023";
+  color: #5b21b6;
+  content: "Last updated 6/21/2023";
 }
 
 .underline-hover-effect {

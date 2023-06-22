@@ -86,11 +86,11 @@ const About = () => {
             🎼 I've played the piano, guitar, and saxophone, and still mess
             around with them every once in a while
           </h1>
-          <h1 className="pb-[2%]">🎮 I dabble in video games (who doesnt?)</h1>
           <h1 className="pb-[2%]">
             👐🏼 I enjoy doing things with my hands (love origami and recently
             made matching anklets for me and my girlfriend)
           </h1>
+          <h1 className="pb-[2%]">🎮 I dabble in video games (who doesnt?)</h1>
           <h1 className="pb-[2%]">
             📸 I enjoy{" "}
             <Link
@@ -103,8 +103,7 @@ const About = () => {
             , espcially when traveling.
           </h1>
           <h1 className="pb-[1%]">
-            🎶 Here are some of my most favorite songs, which I think reveals a
-            lot about a person
+            🎶 Here are (in my opinion) the best songs ever written
           </h1>
           <iframe
             style={{ borderRadius: "12px" }}

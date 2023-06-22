@@ -15,7 +15,6 @@ const Footer = () => {
             <button disabled={true} />
           </span>
         </div>
-
         <div>
           <ul>
             <li>
