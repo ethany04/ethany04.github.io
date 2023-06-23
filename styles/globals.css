@@ -117,12 +117,12 @@ button {
 
 button:before {
   color: #5b21b6;
-  content: "v1.0.0";
+  content: "v1.0.1";
 }
 
 button:hover:before {
   color: #5b21b6;
-  content: "Last updated 6/21/2023";
+  content: "Last updated 6/22/2023";
 }
 
 .underline-hover-effect {
