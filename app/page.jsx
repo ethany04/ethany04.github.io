@@ -1,11 +1,22 @@
 import Image from "next/image";
 import RootLayout from "./layout";
 import ProjectCard from "@/components/ProjectCard";
+import Link from "next/link";
 
 const projectImages = [
-  ["Portfolio (This website!)", "../assets/images/portfolio.png", "#f0f0f5"],
-  ["Bzzaart", "../assets/images/bzzaart.png", "#ff91af"],
-  ["Hang or Sustain", "../assets/images/HangOrSustain.png", "#77987d"],
+  [
+    "Portfolio (This website!)",
+    "../assets/images/portfolio.png",
+    "#f0f0f5",
+    "portfolio",
+  ],
+  ["Bzzaart", "../assets/images/bzzaart.png", "#ff91af", "bzzaart"],
+  [
+    "Hang or Sustain",
+    "../assets/images/HangOrSustain.png",
+    "#77987d",
+    "hangorsustain",
+  ],
 ];
 
 const Projects = () => {
@@ -49,11 +60,13 @@ const Projects = () => {
         </div>
         <div>
           {projectImages.map((project) => (
-            <ProjectCard
-              title={project[0]}
-              image={project[1]}
-              themeColor={project[2]}
-            />
+            <Link href="/tempPage">
+              <ProjectCard
+                title={project[0]}
+                image={project[1]}
+                themeColor={project[2]}
+              />
+            </Link>
           ))}
         </div>
       </section>
