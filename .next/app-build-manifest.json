@@ -12,11 +12,11 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/tempPage/page": [
+    "/[projectId]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/tempPage/page.css",
-      "static/chunks/app/tempPage/page.js"
+      "static/css/app/[projectId]/page.css",
+      "static/chunks/app/[projectId]/page.js"
     ]
   }
 }

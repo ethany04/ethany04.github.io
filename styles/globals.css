@@ -117,7 +117,7 @@ button {
 
 button:before {
   color: #5b21b6;
-  content: "v1.1.0";
+  content: "v1.1.1";
 }
 
 button:hover:before {

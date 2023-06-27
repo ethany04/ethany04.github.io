@@ -235,7 +235,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Footer.jsx",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -243,7 +243,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Footer.jsx",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -251,7 +251,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Footer.jsx",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -261,7 +261,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.jsx",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -269,7 +269,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.jsx",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -277,7 +277,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Header.jsx",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -287,7 +287,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -295,7 +295,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -303,7 +303,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -313,7 +313,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -321,7 +321,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -329,7 +329,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -339,7 +339,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -347,7 +347,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -355,7 +355,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -363,7 +363,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "handleClientScriptLoad",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -371,7 +371,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "initScriptLoader",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -381,7 +381,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -389,7 +389,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -397,7 +397,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       },
@@ -405,7 +405,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
         "chunks": [
-          "app/tempPage/page:static/chunks/app/tempPage/page.js"
+          "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
         ],
         "async": false
       }
@@ -419,8 +419,8 @@ self.__RSC_MANIFEST={
     "/Users/ethanyu/Documents/portfolio/app/page": [
       "static/css/app/page.css"
     ],
-    "/Users/ethanyu/Documents/portfolio/app/tempPage/page": [
-      "static/css/app/tempPage/page.css"
+    "/Users/ethanyu/Documents/portfolio/app/[projectId]/page": [
+      "static/css/app/[projectId]/page.css"
     ]
   },
   "clientModules": {
@@ -1102,14 +1102,14 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css",
         "static/css/app/page.css",
-        "static/css/app/tempPage/page.css"
+        "static/css/app/[projectId]/page.css"
       ]
     },
     "/Users/ethanyu/Documents/portfolio/components/Footer.jsx": {
       "id": "(app-client)/./components/Footer.jsx",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1117,7 +1117,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Footer.jsx",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1125,7 +1125,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Footer.jsx",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1133,7 +1133,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.jsx",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1141,7 +1141,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.jsx",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1149,7 +1149,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Header.jsx",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1157,7 +1157,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1165,7 +1165,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1173,7 +1173,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1181,7 +1181,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1189,7 +1189,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1197,7 +1197,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1205,7 +1205,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1213,7 +1213,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1221,7 +1221,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1229,7 +1229,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1237,7 +1237,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1245,7 +1245,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1253,7 +1253,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1261,7 +1261,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1269,7 +1269,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1277,7 +1277,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1285,7 +1285,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1293,7 +1293,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1301,7 +1301,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1309,7 +1309,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "handleClientScriptLoad",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1317,7 +1317,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1325,7 +1325,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "initScriptLoader",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1333,7 +1333,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1341,7 +1341,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1349,7 +1349,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1357,7 +1357,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1365,7 +1365,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1373,7 +1373,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1381,7 +1381,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     },
@@ -1389,7 +1389,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/tempPage/page:static/chunks/app/tempPage/page.js"
+        "app/[projectId]/page:static/chunks/app/[projectId]/page.js"
       ],
       "async": false
     }

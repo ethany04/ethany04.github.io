@@ -60,7 +60,7 @@ const Projects = () => {
         </div>
         <div>
           {projectImages.map((project) => (
-            <Link href="/tempPage">
+            <Link href={`/${project[3]}`}>
               <ProjectCard
                 title={project[0]}
                 image={project[1]}
