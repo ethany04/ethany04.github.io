@@ -731,8 +731,8 @@ video {
 
 * {
   font-family: newSpiritSemiBold;
-
   color: #f0f0f5;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -820,12 +820,12 @@ button {
 
 button:before {
   color: #5b21b6;
-  content: "v1.1.0";
+  content: "v1.1.4";
 }
 
 button:hover:before {
   color: #5b21b6;
-  content: "Last updated 6/26/2023";
+  content: "Last updated 2/12/2024";
 }
 
 .underline-hover-effect {
@@ -1015,6 +1015,28 @@ button:hover:before {
   100% {
     transform: translateX(-50%) translateZ(0) scaleY(1);
   }
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery__item {
+  scroll-snap-align: center;
+  min-width: 75%;
+  height: 100%;
+}
+
+.gallery__image {
+  width: 40%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Tailwind Styles */

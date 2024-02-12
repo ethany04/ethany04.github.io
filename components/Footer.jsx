@@ -19,7 +19,10 @@ const Footer = () => {
           <ul>
             <li>
               <div>
-                <a target="_blank" href="https://read.cv/eethann">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/12n9RdN0c7ZQ2MYAksyEB7YpIK0yA8IMA/view?usp=sharing"
+                >
                   <Image
                     src="/assets/icons/form_blank.svg"
                     alt="Form logo"

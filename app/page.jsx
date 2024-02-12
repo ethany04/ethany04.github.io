@@ -4,25 +4,36 @@ import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 
 const projectImages = [
-  [
-    "Portfolio (This website!)",
-    "../assets/images/portfolio.png",
-    "#f0f0f5",
-    "portfolio",
-  ],
-  ["Bzzaart", "../assets/images/bzzaart.png", "#ff91af", "bzzaart"],
-  [
-    "Hang or Sustain",
-    "../assets/images/HangOrSustain.png",
-    "#77987d",
-    "hangorsustain",
-  ],
+  {
+    title: "FLAIRE",
+    imgurl: "../assets/images/flaire.png",
+    themeColor: "#efb379",
+    href: "/flaire",
+  },
+  {
+    title: "Portfolio (This website!)",
+    imgurl: "../assets/images/portfolio.png",
+    themeColor: "#f0f0f5",
+    href: "/portfolio",
+  },
+  {
+    title: "Bzzaart",
+    imgurl: "../assets/images/bzzaart.png",
+    themeColor: "#ff91af",
+    href: "/bzzaart",
+  },
+  {
+    title: "Hang or Sustain",
+    imgurl: "../assets/images/HangOrSustain.png",
+    themeColor: "#77987d",
+    href: "/hangorsustain",
+  },
 ];
 
 const Projects = () => {
   return (
     <RootLayout showFooter={true} showHeader={true}>
-      <section className="flex flex-col pt-[14%] pb-[5%] items-center ">
+      <section className="flex flex-col pt-[14%] pb-[5%] items-center">
         <div
           style={{
             zIndex: -1,
@@ -60,11 +71,12 @@ const Projects = () => {
         </div>
         <div>
           {projectImages.map((project) => (
-            <Link href={`/${project[3]}`}>
+            // <Link href={project.href}>
+            <Link href="/tempPage">
               <ProjectCard
-                title={project[0]}
-                image={project[1]}
-                themeColor={project[2]}
+                title={project.title}
+                image={project.imgurl}
+                themeColor={project.themeColor}
               />
             </Link>
           ))}

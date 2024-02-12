@@ -6,7 +6,10 @@ self.__RSC_CSS_MANIFEST={
     "/Users/ethanyu/Documents/portfolio/app/page.jsx": [
       "/Users/ethanyu/Documents/portfolio/styles/globals.css"
     ],
-    "/Users/ethanyu/Documents/portfolio/app/[projectId]/page.jsx": [
+    "/Users/ethanyu/Documents/portfolio/app/about/page.jsx": [
+      "/Users/ethanyu/Documents/portfolio/styles/globals.css"
+    ],
+    "/Users/ethanyu/Documents/portfolio/app/tempPage/page.jsx": [
       "/Users/ethanyu/Documents/portfolio/styles/globals.css"
     ]
   },
@@ -14,7 +17,10 @@ self.__RSC_CSS_MANIFEST={
     "/Users/ethanyu/Documents/portfolio/app/page": [
       "/Users/ethanyu/Documents/portfolio/styles/globals.css"
     ],
-    "/Users/ethanyu/Documents/portfolio/app/[projectId]/page": [
+    "/Users/ethanyu/Documents/portfolio/app/about/page": [
+      "/Users/ethanyu/Documents/portfolio/styles/globals.css"
+    ],
+    "/Users/ethanyu/Documents/portfolio/app/tempPage/page": [
       "/Users/ethanyu/Documents/portfolio/styles/globals.css"
     ]
   }

@@ -2,11 +2,6 @@ import "@styles/globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-export const metadata = {
-  title: "👋🏼 Ethan Yu",
-  description: "Howdy y'all!",
-};
-
 const RootLayout = ({ children, showFooter, showHeader }) => {
   return (
     <html lang="en">
@@ -17,10 +12,11 @@ const RootLayout = ({ children, showFooter, showHeader }) => {
           href="/assets/icons/yu.svg"
           type="image/x-icon"
         />
+        <title>👋🏼 Ethan Yu</title>
       </head>
       <body>
         {showHeader && <Header />}
-        <main>{children}</main>
+        <main className="w-full">{children}</main>
         {showFooter && <Footer />}
       </body>
     </html>

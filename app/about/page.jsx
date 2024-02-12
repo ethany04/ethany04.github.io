@@ -30,10 +30,10 @@ const About = () => {
         </div>
         <div className="flex flex-row pt-[5%] justify-between w-3/4">
           <Image
-            src="/assets/images/selfie.png"
+            src="/assets/images/headshot.jpeg"
             alt="selfie"
             height={1}
-            width={400}
+            width={500}
           />
           <span className="w-[50%]">
             <div className="flex flex-wrap">
@@ -42,10 +42,10 @@ const About = () => {
                 engineer!
               </h1>
               <p className="font-light pb-[2%]">
-                I am currently an undergraduate student at The University of
-                Texas at Austin. I am pursuing a B.S. in Computer Science, as
-                well as a minor in Kinesiology, and potentially
-                Entrepreneurship. I will be graduating in May 2026.
+                I am currently a second year undergraduate student at The
+                University of Texas at Austin. I am pursuing a B.S. in Computer
+                Science with a minor in Kinesiology and am also studying
+                Business. I will be graduating in May 2026.
               </p>
               <p className="font-light pb-[2%]">
                 From a young age, I always had a fascination with the
@@ -86,10 +86,7 @@ const About = () => {
             🎼 I've played the piano, guitar, and saxophone, and still mess
             around with them every once in a while
           </h1>
-          <h1 className="pb-[2%]">
-            👐🏼 I enjoy doing things with my hands (love origami and recently
-            made matching anklets for me and my girlfriend)
-          </h1>
+          <h1 className="pb-[2%]">👐🏼 I enjoy doing things with my hands</h1>
           <h1 className="pb-[2%]">🎮 I dabble in video games (who doesnt?)</h1>
           <h1 className="pb-[2%]">
             📸 I enjoy{" "}
